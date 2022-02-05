@@ -8596,7 +8596,7 @@
                     posA.vadd(worldA1, worldA1);
                     var planeEqWS1 = -worldA1.dot(planeNormalWS1);
                     var planeEqWS;
-                    if (false) {
+                    if (true) {
                         var otherFace = polyA.connectedFaces[e0];
                         localPlaneNormal.copy(this.faceNormals[otherFace]);
                         var localPlaneEq = this.getPlaneConstantOfFace(otherFace);
